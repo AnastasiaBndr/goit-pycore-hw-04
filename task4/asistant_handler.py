@@ -26,4 +26,4 @@ def show_phone(args, contacts):
 def show_all(args, contacts):
     if not contacts:
         return "No contacts available."
-    return contacts
+    return str(contacts)
